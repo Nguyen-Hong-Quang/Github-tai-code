@@ -24,7 +24,6 @@ namespace ass_nhap
             {
                 Console.WriteLine("Error: Current water meter reading must be greater than or equal to the previous reading. Please enter again.");
                 Console.WriteLine("Current water meter reading:");
-                previousWaterComsuption = float.Parse(Console.ReadLine());
                 currentWaterComsuption = float.Parse(Console.ReadLine());
             }
 
